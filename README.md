@@ -1,13 +1,20 @@
-# To Initialize
- - first run `tmux -f [config-filename]`
- - then run `tmux attach`
+# Dependencies
+ - Install git, jdk version needed for server jar, and tmux
+ - Inside your server directory write a script called start.sh containing the server launch command. An example script has been provided
 
-# To Detach
+# Getting Started
+- Start by cloning this repo and copy the config files to the home directory
+
+## To Initialize
+ - First run `tmux -f [config-filename]`
+ - Then run `tmux attach`
+
+## To Detach
  - Ctrl+b, d
 
-# To stop the server
- - first attach to the session
- - then type `stop` in the server client
+## To stop the server
+ - First attach to the session
+ - Then type `stop` in the server client
 
-# To kill the Tmux session
- - run `tmux kill-server`
+## To kill the Tmux session
+ - Run `tmux kill-server`
